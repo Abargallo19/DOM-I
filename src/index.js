@@ -92,6 +92,14 @@ about.querySelector("p").textContent = siteContent['main-content']['about-conten
 //BOTTOM CONTENT
 const bottomContent = document.querySelector('.bottom-content');
 
-const services = bottomContent.querySelector('.text-content:nth-of-type(3)')
-const product = bottomContent.querySelector('.text-content:nth-of-type(4)')
-const vision = bottomContent.querySelector('.text-content:nth-of-type(5)')
+const services = bottomContent.querySelector('.text-content:nth-of-type(1)')
+services.querySelector('h4').textContent = siteContent['main-content']['services-h4'];
+services.querySelector('p').textContent = siteContent['main-content']['services-content'];
+
+const product = bottomContent.querySelector('.text-content:nth-of-type(2)')
+product.querySelector('h4').textContent = siteContent['main-content']['product-h4'];
+product.querySelector('p').textContent = siteContent['main-content']['product-content'];
+
+const vision = bottomContent.querySelector('.text-content:nth-of-type(3)');
+vision.querySelector('h4').textContent = siteContent['main-content']['vision-h4'];
+vision.querySelector('p').textContent = siteContent['main-content']['vision-content'];
