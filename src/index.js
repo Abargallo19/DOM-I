@@ -41,3 +41,10 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 
 console.log('project wired!')
 console.log("Hey! Happy to have ya!!")
+
+//NAV LINKS
+const links = document.querySelectorAll('nav a');
+const linkText = Object.values(siteContent.nav);
+
+
+
