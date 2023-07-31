@@ -82,5 +82,16 @@ const topContent = document.querySelector(".top-content");
 const features = topContent.querySelector(".text-content:nth-of-type(1)");
 features.querySelector("h4").textContent =
   siteContent["main-content"]["features-h4"];
+features.querySelector("p").textContent =
+  siteContent["main-content"]["features-content"];
 
-const about = document.querySelector();
+const about = topContent.querySelector(".text-content:nth-of-type(2)");
+about.querySelector("h4").textContent = siteContent["main-content"]["about-h4"];
+about.querySelector("p").textContent = siteContent['main-content']['about-content'];
+
+//BOTTOM CONTENT
+const bottomContent = document.querySelector('.bottom-content');
+
+const services = bottomContent.querySelector('.text-content:nth-of-type(3)')
+const product = bottomContent.querySelector('.text-content:nth-of-type(4)')
+const vision = bottomContent.querySelector('.text-content:nth-of-type(5)')
