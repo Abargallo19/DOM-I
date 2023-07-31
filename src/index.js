@@ -57,3 +57,7 @@ const cta = document.querySelector('.cta');
 const ctaHeader = cta.querySelector('h1');
 
 ctaHeader.textContent = siteContent['cta']['h1'];
+
+const ctaButton = cta.querySelector('button');
+
+ctaButton.textContent = siteContent['cta']['button']
