@@ -46,5 +46,9 @@ console.log("Hey! Happy to have ya!!")
 const links = document.querySelectorAll('nav a');
 const linkText = Object.values(siteContent.nav);
 
+links.forEach((link, idx) => {
+  link.textContent = linkText[idx]
+  link.classList.add('italic')
+})
 
 
