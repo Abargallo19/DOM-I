@@ -61,3 +61,8 @@ ctaHeader.textContent = siteContent['cta']['h1'];
 const ctaButton = cta.querySelector('button');
 
 ctaButton.textContent = siteContent['cta']['button']
+
+//IMAGES
+const logoImg = document.querySelector('#logo-img');
+const ctaImg = document.querySelector('#cta-img');
+const accentImg = document.querySelector('#middle-img');
