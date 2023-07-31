@@ -51,4 +51,9 @@ links.forEach((link, idx) => {
   link.classList.add('italic')
 })
 
+//LARGE CONTENT
 
+const cta = document.querySelector('.cta');
+const ctaHeader = cta.querySelector('h1');
+
+ctaHeader.textContent = siteContent['cta']['h1'];
