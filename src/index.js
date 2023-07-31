@@ -66,3 +66,7 @@ ctaButton.textContent = siteContent['cta']['button']
 const logoImg = document.querySelector('#logo-img');
 const ctaImg = document.querySelector('#cta-img');
 const accentImg = document.querySelector('#middle-img');
+
+logoImg.src = "http://localhost:9000/img/logo.png";
+ctaImg.src = "http://localhost:9000/img/cta.png";
+accentImg.src = "http://localhost:9000/img/accent.png";
