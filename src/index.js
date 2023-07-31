@@ -103,3 +103,8 @@ product.querySelector('p').textContent = siteContent['main-content']['product-co
 const vision = bottomContent.querySelector('.text-content:nth-of-type(3)');
 vision.querySelector('h4').textContent = siteContent['main-content']['vision-h4'];
 vision.querySelector('p').textContent = siteContent['main-content']['vision-content'];
+
+//CONTACT
+const contact = document.querySelector('.contact');
+const contHeader = contact.querySelector('h4');
+contHeader.textContent = siteContent['contact']['contact-h4'];
