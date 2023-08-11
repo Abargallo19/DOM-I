@@ -106,5 +106,18 @@ vision.querySelector('p').textContent = siteContent['main-content']['vision-cont
 
 //CONTACT
 const contact = document.querySelector('.contact');
-const contHeader = contact.querySelector('h4');
-contHeader.textContent = siteContent['contact']['contact-h4'];
+const contactHeading = contact.querySelector('h4');
+contactHeading.textContent = siteContent['contact']['contact-h4'];
+
+const address = contact.querySelector('p');
+address.textContent = siteContent['contact']['address'];
+
+const phone = contact.querySelector('p:nth-of-type(2)')
+phone.textContent = siteContent['contact']['phone'];
+
+contact.children[3].textContent = siteContent['contact']['email'];
+
+//FOOTER  
+const footLink = document.querySelector('footer a');
+footLink.className = 'bold';
+footLink.textContent = siteContent['footer']['copyright'];
